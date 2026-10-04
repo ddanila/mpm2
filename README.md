@@ -2,6 +2,9 @@
 
 A Z80-based MP/M II emulator with SSH terminal access. Multiple users can connect simultaneously to run CP/M-compatible software.
 
+A separate [Juku 8080 target](targets/juku/README.md) boots on the Juku hardware
+model in `8080-cosim`, using the existing JukuNet ROM and network disk.
+
 Features:
 
 - MP/M II V2.0 or V2.1, from Digital Research's binaries or built from DRI's source code
